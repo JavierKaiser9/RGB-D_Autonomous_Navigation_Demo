@@ -43,6 +43,5 @@ If you want to use the **pre-trained OpenVINO model**, clone the repository and 
 If you want to train your own model, change the paths in the train_two_input_one_output_model.py file to the locations where you want to store the training and test data. Then, you can transform the TensorFlow model into an OpenVINO model using the create_openvino_model.py file.
 
 ## 🎯 Performance Highlights  
-🔥 **99% accuracy** in sidewalk scenario classification  
+🔥 **High accuracy** in sidewalk scenario classification  
 ⚡ Optimized for **low-latency execution** on edge devices  
-🎯 Designed for **real-world autonomous navigation**  
