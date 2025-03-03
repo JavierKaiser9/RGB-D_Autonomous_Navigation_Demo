@@ -7,7 +7,7 @@ def plot_loss_curves(history):
 
     Args:
       history: TensorFlow model History object
-      (see: https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/History)
+
     """
     loss = history.history['loss']
     val_loss = history.history['val_loss']
