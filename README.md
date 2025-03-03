@@ -1,4 +1,4 @@
-# 🚀 Autonomous Sidewalk Navigation Demo  
+# 🚀 Sidewalk Navigation Demo  
 **RGB-D Fusion with EfficientNetV2**  
 
 ## 🌟 Overview  
