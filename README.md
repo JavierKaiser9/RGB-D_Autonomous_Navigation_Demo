@@ -2,11 +2,16 @@
 **RGB-D Fusion Steering with EfficientNetV2**  
 
 ## 🌟 Overview  
-This repository presents a **deep learning-based Automatic Steering Module Demo** designed for **Autonomous Mobile Robots (AMRs)** navigating pedestrian sidewalks. The model leverages **RGB-D fusion** to classify diverse sidewalk scenarios and generate steering commands in real time.  
+
+This repository demonstrates the **architecture and implementation of a dual-input, single-output deep learning model** for real-time **autonomous sidewalk navigation**. A key focus is to:  
+💡 Showcase the working principles of a **2-input, 1-output EfficientNetV2 model** for RGB-D fusion.  
+💡 Present the **performance of OpenVINO-optimized models**, emphasizing real-time execution on edge devices.  
+
+---
 
 ## 🛠️ Key Technologies  
-✅ **Deep Learning Framework**: PyTorch for model development and training  
-✅ **Model Architecture**: **Dual-Input, Single-Output EfficientNetV2**  
+**Deep Learning Framework**: TensorFlow for model development and training  
+**Model Architecture**: **Dual-Input, Single-Output EfficientNetV2**  
    - Input: **RGB + Depth** (from Intel RealSense D415)  
    - Output: **Steering Command** (turn left, right, or go straight)  
 ✅ **Hardware Acceleration**: **Intel OpenVINO** for real-time inference  
@@ -21,6 +26,10 @@ This repository presents a **deep learning-based Automatic Steering Module Demo*
 
 ---
 
+#### 💻 Requirements  
+- **Intel RealSense D415** camera connected to your computer  
+- Python environment with **OpenVINO** installed
+
 ## 🚀 How to Use  
 
 This repository provides two main functionalities:  
@@ -28,11 +37,10 @@ This repository provides two main functionalities:
 2️⃣ **Train your own model** using the provided architecture.  
 
 ### 🔹 1. Running the Pre-Trained OpenVINO Model  
-If you want to use the **pre-trained OpenVINO model**, follow these steps:  
+If you want to use the **pre-trained OpenVINO model**, clone the repository and run the test_openvino_models.py file.
 
-#### ✅ Requirements  
-- **Intel RealSense D415** camera connected to your computer  
-- Python environment with **OpenVINO** installed
+### 🔹 2. Train your own OpenVINO Model  
+If you want to train your own model, change the paths in the train_two_input_one_output_model.py file to the locations where you want to store the training and test data. Then, you can transform the TensorFlow model into an OpenVINO model using the create_openvino_model.py file.
 
 ## 🎯 Performance Highlights  
 🔥 **99% accuracy** in sidewalk scenario classification  
