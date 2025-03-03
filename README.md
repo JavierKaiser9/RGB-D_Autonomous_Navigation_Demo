@@ -1,11 +1,11 @@
 # 🚀 Autonomous Sidewalk Navigation Demo  
-**RGB-D Fusion Steering with EfficientNetV2**  
+**RGB-D Fusion with EfficientNetV2**  
 
 ## 🌟 Overview  
 
-This repository demonstrates the **architecture and implementation of a dual-input, single-output deep learning model** for real-time **autonomous sidewalk navigation**. A key focus is to:  
+This repository demonstrates the **architecture and implementation of a dual-input, single-output deep learning model** for real-time **sidewalk navigation**. A key focus is to:  
 💡 Showcase the working principles of a **2-input, 1-output EfficientNetV2 model** for RGB-D fusion.  
-💡 Present the **performance of OpenVINO-optimized models**, emphasizing real-time execution on edge devices.  
+💡 Present the **performance of OpenVINO-optimized models**.  
 
 ---
 
@@ -17,7 +17,7 @@ This repository demonstrates the **architecture and implementation of a dual-inp
 ✅ **Hardware Acceleration**: **Intel OpenVINO** for real-time inference  
 ✅ **Depth Sensing**: **Intel RealSense D415** for **RGB-D fusion**  
 ✅ **Performance Optimization**: Model converted to **OpenVINO IR format** for embedded deployment  
-✅ **Real-Time Execution**: Achieves **51.85 FPS** on an embedded system  
+✅ **Real-Time Execution**: Achieves a mean of **50 FPS** on an embedded system  
 ✅ **Development Environment**:  
    - **TensorFlow**: 2.10  
    - **OpenCV (CV2)**: 4.8.0  
