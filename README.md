@@ -15,7 +15,10 @@ This repository demonstrates the **architecture and implementation of a dual-inp
 **Deep Learning Framework**: TensorFlow for model development and training  
 **Model Architecture**: **Dual-Input, Single-Output EfficientNetV2**  
    - Input: **RGB + Depth** (from Intel RealSense D415)  
-   - Output: **Steering Command** (turn left, right, or go straight)  
+   - Output: **Steering Command** (turn left, right, or go straight)
+
+<img src="https://github.com/JavierKaiser9/RGB-D_Dual_Input_Machine_Learning_Model/blob/master/Model_Architecture.png" width="500" alt="Architecture" title="Architecture" />
+
 ✅ **Hardware Acceleration**: **Intel OpenVINO** for real-time inference  
 ✅ **Depth Sensing**: **Intel RealSense D415** for **RGB-D fusion**  
 ✅ **Performance Optimization**: Model converted to **OpenVINO IR format** for embedded deployment  
