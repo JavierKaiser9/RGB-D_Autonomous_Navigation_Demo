@@ -5,7 +5,9 @@
 
 This repository demonstrates the **architecture and implementation of a dual-input, single-output deep learning model** for real-time **sidewalk navigation**. A key focus is to:  
 💡 Showcase the working principles of a **2-input, 1-output EfficientNetV2 model** for RGB-D fusion.  
-💡 Present the **performance of OpenVINO-optimized models**.  
+💡 Present the **performance of OpenVINO-optimized models**.
+
+<img src="https://github.com/JavierKaiser9/RGB-D_Dual_Input_Machine_Learning_Model/blob/master/realsense_415D_camera.png" width="500" alt="Realsense 415-D" title="RGB-D Realsense 415-D camera" />
 
 ---
 
@@ -22,7 +24,7 @@ This repository demonstrates the **architecture and implementation of a dual-inp
    - **TensorFlow**: 2.10  
    - **OpenCV (CV2)**: 4.8.0  
    - **Python**: 3.10  
-✅ **Training Hardware**: **NVIDIA GeForce RTX 3050**  
+✅ **Training Hardware for Demo Model**: **NVIDIA GeForce RTX 3050**  
 
 ---
 
