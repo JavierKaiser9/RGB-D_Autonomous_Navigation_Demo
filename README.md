@@ -19,10 +19,10 @@ This repository demonstrates the **architecture and implementation of a dual-inp
 
 <img src="https://github.com/JavierKaiser9/RGB-D_Dual_Input_Machine_Learning_Model/blob/master/Model_Architecture.png" width="500" alt="Architecture" title="Architecture" />
 
-✅ **Hardware Acceleration**: **Intel OpenVINO** for real-time inference  
+✅ **Hardware Acceleration**: **Intel OpenVINO 2023.2** for real-time inference  
 ✅ **Depth Sensing**: **Intel RealSense D415** for **RGB-D fusion**  
 ✅ **Performance Optimization**: Model converted to **OpenVINO IR format** for embedded deployment  
-✅ **Real-Time Execution**: Achieves a mean of **50 FPS** on an embedded system  
+✅ **Real-Time Execution**: Achieves a mean of **50 FPS** on an embedded system without GPU  
 ✅ **Development Environment**:  
    - **TensorFlow**: 2.10  
    - **OpenCV (CV2)**: 4.8.0  
